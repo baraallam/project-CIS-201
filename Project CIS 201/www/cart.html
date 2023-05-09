@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Thanks for purchasing from us!</h1>
+      <h3>We appreciate your business and hope you enjoy your purchase.</h3>
+    </div>
+
+    <div class="cart">
+    
+    </div>
+
+    <button class="menu-button"><a href="por.html">Back to the Menu</a></button>
+     <div class="cart">
+
+<div class="cart">
+
+</div>
+
+<div class="location">
+  <form>
+    <label for="location">Enter your location:</label>
+    <input type="text" id="location" name="location">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+>
+
+<script>
+  const form = document.querySelector("form");
+  
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const location = document.querySelector("#location").value;
+    alert("You have entered the location: " + location);
+    
+  });
+</script>
+
+
+  </body>
+</html>
